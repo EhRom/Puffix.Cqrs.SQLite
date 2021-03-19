@@ -12,6 +12,8 @@
     <RepositoryUrl>https://github.com/EhRom/Puffix.Cqrs.SQLite</RepositoryUrl>
     <PackageTags>SQLite Extension CQRS Puffix Framework</PackageTags>
     <PackageReleaseNotes>SQLite extension for Puffix CQRS framework implementation.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
