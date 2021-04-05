@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puffix.Cqrs.SQLite", "Puffix.Cqrs.SQLite\Puffix.Cqrs.SQLite.csproj", "{88640C02-5DD9-4D48-93F6-F075A109FAFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Puffix.Cqrs.SQLite", "Puffix.Cqrs.SQLite\Puffix.Cqrs.SQLite.csproj", "{88640C02-5DD9-4D48-93F6-F075A109FAFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EFD75534-D5F3-4A01-9345-58E8089E4A23}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
